@@ -1,5 +1,6 @@
 package sep24;
 
+
 import java.util.Scanner;
 
 public class SwitchCaseDemo {
@@ -8,38 +9,27 @@ public class SwitchCaseDemo {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your input");
 
-        int input = scanner.nextInt();
+     //  char color = scanner.next().charAt(0);
 
-        switch (input) {
-            case 1 :
 
-                if(true){
+      //  System.out.println(color);
 
-                }else {
-
-                }
-                System.out.println("Case 1 ");
+       /* switch (color) {
+            case "red" :
+                System.out.println("Case red ");
                 break;
-            case 2 :
-                System.out.println("Case 2 ");
+            case "blue" :
+                System.out.println("Case blue ");
                 break;
-            case 3 :
-                System.out.println("Case 3 ");
+            case "orange" :
+                System.out.println("Case orange ");
                 break;
-            case 4 :
-                System.out.println("Case 4 ");
-                break;
-            case 5 :
-                System.out.println("Case 5 ");
-                break;
-            case 6 :
-                System.out.println("Case 6 ");
+            case "Black" :
+                System.out.println("Case Black ");
                 break;
             default:
                 System.out.println("Invalid choice!!");
-
-
-        }
+        }*/
 
     }
 }
