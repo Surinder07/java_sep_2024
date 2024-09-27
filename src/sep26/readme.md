@@ -90,8 +90,32 @@ how to create a directory
 
 
 
+## file commands 
+cp    exiting_file_name    new_file_name -------- to copy a file 
+mv   - rename 
+rm - remove a file 
+
+rmdir - to remove directory 
+rm -r -- to remove directory which is not empty 
 
 
+## File permission 
+
+rw-    owner permission 
+r--    group permission 
+r--    other permission 
+
+
+0 --- no permission 
+1 - execute permission 
+2 write permission 
+3 write and execute permission 
+4 read permissions
+5 read and execute 
+6 read and write 
+7 all 
+
+read and execute to all 
 
 
 
