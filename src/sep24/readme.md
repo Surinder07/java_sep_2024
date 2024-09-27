@@ -38,6 +38,39 @@ Bell /  Scotia Bank
 
 
 
+## Loops 
+
+when you want to do a repetative task 
+
+1. while loop 
+2. do - while 
+3. for loop 
+4. for each (in arrays )
+
+
+
+
+while(condition ) {
+
+// statement 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
