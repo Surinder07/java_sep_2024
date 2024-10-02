@@ -2,6 +2,7 @@ package oct1;
 
 public class Vehicle {
 
+
   /*  // member variables  , Hardcoded values
     String brand = "Audi";
     String color = "Black";

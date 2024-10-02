@@ -35,7 +35,7 @@ get account Balance
 withdraw
 deposit etc..
 
-Create object of Bank class
+Create object of BankMain class
 call all the methods you create...
 
 
