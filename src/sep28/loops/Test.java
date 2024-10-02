@@ -1,4 +1,4 @@
-package sep28;
+package sep28.loops;
 
 public class Test {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package sep28;
+package sep28.loops;
 
 import java.util.Scanner;
 
@@ -50,5 +50,27 @@ public class Calculator {
             choice = scanner.next().charAt(0);
 
         }while (choice == 'y' || choice ==  'Y');
+    }
+
+    public static class ProblemSol {
+        public static void main(String[] args) {
+
+
+            // sum of n natural nos
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter the limit upto you want to print");
+            int limit = scanner.nextInt();
+
+            int x = 0;
+            int sum = 0;
+
+            do {
+                sum = sum + x;
+
+                x++;
+            } while (x <= limit);
+
+            System.out.println(sum);
+        }
     }
 }
