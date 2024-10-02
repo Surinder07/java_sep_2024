@@ -20,6 +20,25 @@ public class MainVehicle {
 
 /*
 
+class Bank
+
+accountnumber
+username
+firstname
+lastName
+balance
+
+
+methods
+get account Balance
+
+withdraw
+deposit etc..
+
+Create object of Bank class
+call all the methods you create...
+
+
 
 
 
