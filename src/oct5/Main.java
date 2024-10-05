@@ -15,5 +15,7 @@ public class Main {
         animal.eat();
         animal.sleep();
 
+       // Demo.test();
+
     }
 }

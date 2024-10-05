@@ -2,11 +2,11 @@ package oct5;
 
 public class DateTest {
     public static void main(String[] args) {
-        DateDemo dateDemo = new DateDemo();
+      /*  DateDemo dateDemo = new DateDemo();
 
 
         System.out.println(dateDemo.year);
-        System.out.println(dateDemo.name);
+        System.out.println(dateDemo.name);*/
 
 
         /*System.out.println(dateDemo.name);
