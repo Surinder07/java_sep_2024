@@ -25,10 +25,7 @@ public class Calculator {
         if(option == 1 && option != 0) {
             // take user input for numbers as well
 
-            int x = 10;
-            int y = 20;
-            int sum = x + y;
-            System.out.println("Sum of two numbers is " + sum);
+
 
         }
         else if(option == 2) {
@@ -47,13 +44,6 @@ public class Calculator {
         else if(option == 5) {
             System.out.println("Modu");
         }
-
-
-
-
-
-
-
 
     }
 }
