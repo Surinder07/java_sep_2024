@@ -27,7 +27,7 @@ public class Demo {
 
     public static void main(String[] args) {
         Demo demo = new Demo(10, 10);
-        System.out.println(z);
+       // System.out.println(z);
 
 
     }
