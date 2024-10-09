@@ -6,6 +6,10 @@ public class Test {
         return sum;
     }
 
+    public void test(){
+        sum(10,20);
+    }
+
     public static void main(String[] args) {
 
         Test test = new Test();
