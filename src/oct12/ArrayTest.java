@@ -2,22 +2,24 @@ package oct12;
 
 import java.util.Scanner;
 
-public class ArrayReverse {
+public class ArrayTest {
     public static void main(String[] args) {
 
+
+    }
+
+    public static int[] printArray(int[] arr){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the elements for the Array ");
 
-        int[] arr = new int[5];
+         arr = new int[5];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = scanner.nextInt();
         }
-        // Logic
 
-        int start = 0;     // 0
-        int end = arr.length - 1;   // 4          A         B
-                                                // C
-//              0 < 4   ,, 1   < 3   , 2 < 2
+        int start = 0;
+        int end = arr.length - 1;
+
         while (start < end) {
             int temp = arr[end];
             arr[end] = arr[start];
@@ -28,25 +30,13 @@ public class ArrayReverse {
         }
 
         System.out.println("Display the elements in array ");
-        // for element integer element in given array , print that element.
+
         for (int element : arr) {
             System.out.println(element);
         }
-
-        // lambdas --- forEach()
-       /*
-
-       given array
-       10   330   230   4220   5120   5121  34223
-
-       find the maximum element in the array
-       find the minimum element in the array
-
-
-
-        */
-
-
-
+        return arr;
     }
+
+// pass by value
+    // pass by ref
 }
