@@ -3,11 +3,14 @@ package oct12;
 public class StringDemo1 {
     public static void main(String[] args) {
 
-        String name = "PPragra";
+        String s = new String("");
+
+        String name = "Pragra";
         System.out.println(name);
         int length = name.length();
 
         System.out.println(length);
+
 
 
         boolean pragra = name.equals("Pragra");
