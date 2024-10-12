@@ -24,6 +24,22 @@ decalration
 
 
 
+## String 
+character array 
+String is data type 
+non primitive
+
+String immutability ? 
+
+Immutable , we can change the string... 
+
+
+Mutable , we can modify the object 
+
+
+
+
+
 
 
 
