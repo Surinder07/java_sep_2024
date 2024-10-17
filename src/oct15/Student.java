@@ -18,6 +18,7 @@ public class Student {
         System.out.println(salary);
     }
 
+
     @Override
     public String toString() {
         return "Student{" +
