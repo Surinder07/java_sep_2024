@@ -27,7 +27,7 @@ Scotia
 
 
 
-create a BankOfCanada Class , which has rate of interest 5.5
+create a BankOfCanada Class , zwhich has rate of interest 5.5
 
 Extend other banks with rate : 1.25, 1.55, 2.10 for scotia , bmo, rbc respectively.
 Pragra Bank, which does not have a specific rate.
