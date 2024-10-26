@@ -3,8 +3,8 @@ package oct26;
 public class MainVehicle {
     public static void main(String[] args) {
 
-        Car car = new Car();
-        car.printCarDetails();
+ /*       Car car = new Car();
+        car.printCarDetails();*/
 
 
     }

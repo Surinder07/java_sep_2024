@@ -32,25 +32,45 @@ super should be the first statement in the constructor
 
 
 
+        Book class ---- 
+        genre, title
+            
+    |                           |
+Fiction                         Non Fiction 
+title       
 
- 
+author                          price 
+printFictionBook                printNonFiction
 
-
-
-
-
-
-
-
-
-
-
-
-
+    Object of Fiction           Non fiction 
 
 
 2. Polymorphism 
 3. Abstraction
 4. encapsulation 
+
+
+
+
+
+
+
+
+
+
+
+
+# Encapsulation 
+
+Data hiding... 
+
+
+
+
+
+
+
+
+
 
 

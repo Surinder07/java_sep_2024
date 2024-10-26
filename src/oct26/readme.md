@@ -45,25 +45,32 @@ printFictionBook                printNonFiction
     Object of Fiction           Non fiction 
 
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 2. Polymorphism 
 3. Abstraction
 4. encapsulation 
+
+
+
+
+
+
+
+
+
+
+
+
+# Encapsulation 
+
+Data hiding... 
+
+
+
+
+
+
+
+
+
 
 
