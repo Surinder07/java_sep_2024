@@ -18,7 +18,6 @@ public class Counter {
 
 class AdvanceCounter  extends Counter {
 
-    @Override
     double sum(double a, double b ){
         return a+b;
     }
