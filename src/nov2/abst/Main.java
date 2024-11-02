@@ -15,6 +15,8 @@ public class Main {
 
 /*
 
+Clone this code,
+and complete this code ...
 
 create another class
 SmartPhone
