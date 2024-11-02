@@ -49,6 +49,30 @@ Car has Steering
 Employee Has address  , X  Employee is a address 
 
 
+## Abstraction ? 
+Data hiding 
+-- showing only essential details 
+car - 
+what is does rather than how it does. 
+
+
+Abstract ? 
+
+
+1. Abstraction class  [0-100%]
+2. Interfaces.. [100%]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
