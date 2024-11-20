@@ -55,12 +55,62 @@ public class Test {
         }
 
 
-
-
-
-
-
         // parent class ----- list, set , queue    child class
+
+        /*
+
+        Company Name
+        Name : CEO
+
+        Microsoft : Satya Nadella
+        Tesla : Elon Musk
+        Google : Sundar Pichai
+        Zomato : Deepinder Goyal
+        Pragra : Atin Singh
+
+        1. list all the keys
+        2. list all the values
+        3. traverse on entry set and fetch the keys and values .  for loop
+
+
+Problem 2 :
+        Product --- Quantity
+        Laptop      100
+        Mobile      150
+        Mouse      250
+        Keyboard   124
+        cvables     29
+
+        1. find the product with highest stock - String
+        2. find the highest stock - Integer
+        3. find the average stock - Integer
+
+
+      Problem 3 :
+
+        Customized HashMap
+        Product
+        id, name, Stock, price
+
+        Map<Integer, Product>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         */
     }
 
 }
