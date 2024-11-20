@@ -8,14 +8,19 @@ public class Test {
         Map<String, String> map = new HashMap<>();
         // insert into map
 
-        map.put("name", "Anmol");  // this key value pair is called is entry
+        map.put("Name", "Anmol");  // this key value pair is called is entry
         map.put("Email ", "anmol@gmail.com");
-        map.put("phone ", "1212121212");
-        map.put("address ", "Toronto");
-        map.put(null, "nothing");
-        map.put(null, "something");
+        map.put("Phone ", "1212121212");
+        map.put("Address ", "Toronto");
 
         System.out.println(map);
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
 
         map.putIfAbsent("name1 ", "Alok");
 
@@ -81,10 +86,42 @@ Problem 2 :
         Keyboard   124
         cvables     29
 
+        keyset --- [Laptop, Mobile , Mouse..]
+        values [100, 150, 250.... ]
+        entry set [laptop = 100, Moble = 150 ]
+
+
+
         1. find the product with highest stock - String
+
+
+        int max = 0;
+
+         for (  entry : entrySet ){
+
+         entry.getvalue() > max
+
+         max =  entry.getvalue()
+
+
+
+
+
+
+
         2. find the highest stock - Integer
+
+
+
+
         3. find the average stock - Integer
 
+
+{
+"name":"",
+
+
+}
 
       Problem 3 :
 
@@ -93,6 +130,8 @@ Problem 2 :
         id, name, Stock, price
 
         Map<Integer, Product>
+
+
 
 
 
