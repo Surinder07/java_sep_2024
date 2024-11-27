@@ -103,12 +103,6 @@ Problem 2 :
 
          max =  entry.getvalue()
 
-
-
-
-
-
-
         2. find the highest stock - Integer
 
 
