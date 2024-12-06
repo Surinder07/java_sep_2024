@@ -198,6 +198,89 @@ select SUM(EMPLOYEE_SALARY) from EMPLOYEE;
 
 
 
+-- Interview questions
+-- joins , count , sub query
+
+--
+select EMPLOYEE_NAME , MAX(EMPLOYEE_SALARY) from EMPLOYEE;
+select *
+from EMPLOYEE;
+
+
+select EMPLOYEE_NAME, MAX(EMPLOYEE_SALARY) as second_max_salary
+from EMPLOYEE
+where EMPLOYEE_SALARY < (select MAX(EMPLOYEE_SALARY) from EMPLOYEE);
+
+
+select distinct EMPLOYEE_SALARY
+from EMPLOYEE
+ORDER BY
+EMPLOYEE_SALARY DESC
+Limit 3;
+
+
+-- JOINS
+/*
+Inner Join
+Left Join
+Right Join
+Full Join
+
+
+
+*/
+
+-- Inner join
+
+select *
+from EMPLOYEE;
+
+
+select *
+from SALARY;
+
+
+
+
+
+
+select e.EMPLOYEE_NAME , s.FROM_DATE
+
+from EMPLOYEE e
+INNER JOIN
+SALARY s
+ON
+e.EMPLOYEE_ID = s.EMPLOYEE_ID;
+
+
+-- LEFT JOIN
+select e.EMPLOYEE_NAME , s.FROM_DATE
+
+from EMPLOYEE e
+LEFT JOIN
+SALARY s
+ON
+e.EMPLOYEE_ID = s.EMPLOYEE_ID;
+
+-- RIGHT JOIN
+select e.EMPLOYEE_NAME , s.FROM_DATE
+
+from EMPLOYEE e
+RIGHT JOIN
+SALARY s
+ON
+e.EMPLOYEE_ID = s.EMPLOYEE_ID;
+
+select e.EMPLOYEE_NAME , s.FROM_DATE
+
+from EMPLOYEE e
+RIGHT JOIN
+SALARY s
+ON
+e.EMPLOYEE_ID = s.EMPLOYEE_ID;
+
+
+
 
 
 
