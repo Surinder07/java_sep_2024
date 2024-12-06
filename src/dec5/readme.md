@@ -164,7 +164,36 @@ desc Person;
 # SELECT * FROM all_constraints WHERE Table_Name = 'Candidate';
 
 
+-- Functions
 
+
+show tables ;
+
+show databases ;
+use Employee;
+
+select *
+from EMPLOYEE;
+
+
+-- max
+select EMPLOYEE_NAME , MAX(EMPLOYEE_SALARY) from EMPLOYEE;
+
+-- min
+select EMPLOYEE_NAME , MIN(EMPLOYEE_SALARY) from EMPLOYEE;
+
+-- how many employees are from Canada
+-- how many employees with salary greater than 50K
+
+-- COUNT
+
+select count(EMPLOYEE_SALARY) from EMPLOYEE
+where EMPLOYEE_SALARY > 30000 AND EMPLOYEE_SALARY < 60000;
+
+-- SUM
+select SUM(EMPLOYEE_SALARY) from EMPLOYEE;
+
+-- AVG
 
 
 
